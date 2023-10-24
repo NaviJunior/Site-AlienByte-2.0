@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="src/slide.css" />
+  <link rel="shortcut icon" href="alienn.ico" type="image/x-icon">
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+  <script src="src/slide.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AlienByte</title>
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <i class="bx bx-menu"></i>
+
+      <div class="logo">
+        <a href="http://127.0.0.1:5501/index.html">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AIL4fc-pd74C9bNlOXvwgSWDASf9LBhWJW5Mjumyj6P8-MbzwPpEJB72Bbve59nkedSamgUWFAWhh8ZU3jm-VxtZWrU-M8dzegONuksCMs6YFYqXkEuNq9xMlYWJEgGtMaErAxU77joE_iaQr3GCj-_VOFcQ=w500-h500-s-no?authuser=0" /></a>
+      </div>
+
+      <!-- MENU -->
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <i class="bx bx-x"></i>
+        </div>
+        <ul class="links">
+          <li><a href="index.html">HOME</a></li>
+          <li>
+            <a href="#">DEPARTAMENTOS</a>
+            <i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="teclado.html">Teclado</a></li>
+              <li><a href="mouse.html">Mouse</a></li>
+              <li><a href="headset.html">Headset</a></li>
+              <li class="more">
+                <span><a href="#">Mais</a>
+                  <i class="bx bxs-chevron-right arrow more-arrow"></i>
+                </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="gabinetes.html">Gabinetes</a></li>
+                  <li><a href="games.html">Games</a></li>
+                  <li><a href="cadeiras.html">Cadeiras</a></li>
+                  <li><a href="monitor.html">Monitores</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="promocao.html" target="_self">PROMOÇÕES</a>
+            <ul class="js-sub-menu sub-menu">
+            </ul>
+          </li>
+          <li>
+            <a href="#">OLÁ... Entre!</a>
+            <i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+             <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="conta.html" target="_self"> Conta </a></li>
+              <li><a href="#">Atendimento</a></li> 
+        </ul>
+      </div>
+
+      <!-- BOTOES DE LOGIN/CADASTRO -->
+      <!-- <div class="btn">
+        <button href="#" class="login">Login</button>
+        <button href="#" class="cadastro">Cadastro</button>
+      </div> -->
+
+      <!-- CARRINHO DE COMPRAS -->
+      <div class="header-icon">
+        <i class="bx bx-cart"></i>
+        <span class="item__total"></span>
+
+        <!-- BARRA DE PESQUISA -->
+        <div class="search-box">
+          <i class="bx bx-search"></i>
+          <div class="input-box">
+            <input type="text" placeholder="Pesquise o seu produto" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SLIDER ANIMADO -->
+  <section class="slider">
+    <div class="slider-content">
+      <input type="radio" name="btn-radio" id="radio1" />
+      <input type="radio" name="btn-radio" id="radio2" />
+      <input type="radio" name="btn-radio" id="radio3" />
+
+      <div class="slide-box primeiro">
+        <img class="img-desktop" src="./imgpromo/Alien.jpg" alt="slide 1" />
+        <img class="img-mobile" src="./imgpromo/alien mobile.jpg" alt="slide 1" />
+      </div>
+
+      <div class="slide-box">
+        <img class="img-desktop" src="./imgpromo/hora do play.jpg" alt="slide 3" />
+        <img class="img-mobile" src="./imgpromo/hora do play mobile.jpg" alt="slide 1" />
+      </div>
+
+      <div class="slide-box">
+        <img class="img-desktop" src="src/images/1.jpg" alt="slide 3" />
+        <img class="img-mobile" src="src/images/slide 1 mob.jpg" alt="slide 3" />
+      </div>
+
+      <div class="nav-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+      </div>
+
+      <div class="nav-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <br>
+  <h1>PROMOÇÕES</h1>
+  <div class="slide">
+    <div class="item">
+        <div class="item-content">
+            <img src="./srchoradoplay/placa-de-video-rtx-3060-ti-transformed.png" alt="" class="item-img">
+            <h1 class="item-title">Placa de Vídeo RTX 3060 TI Ventus 3X 8GD6X</h1>
+            <div class="item-body">
+                <div class="item-star">
+                    <span class="rating-value">4.5</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <p class="item-price">R$1.199,<small>99</small></p>
+            </div>
+            <div class="item-footer">
+                <button class="btn1 btn-success">Comprar</button>
+                <button class="btn1 btn-border">Carrinho</button>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="item-content">
+            <img src="./srchoradoplay/amd-ryzen-7-5700x-transformed.png" alt="" class="item-img">
+            <h1 class="item-title">Processador AMD Ryzen 7 5700X, 3.4GHz (4.6GHz Max Turbo)</h1>
+            <div class="item-body">
+                <div class="item-star">
+                    <span class="rating-value">4</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <p class="item-price">R$1.148,<small>99</small></p>
+            </div>
+            <div class="item-footer">
+              <button class="btn1 btn-success">Comprar</button>
+              <button class="btn1 btn-border">Carrinho</button>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="item-content">
+            <img src="./srchoradoplay/zyro-image.png" alt="" class="item-img">
+            <h1 class="item-title">Notebook Gamer Acer Nitro 5 Intel Core I7-11800H</h1>
+            <div class="item-body">
+                <div class="item-star">
+                    <span class="rating-value">4.6</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <p class="item-price">R$2.699,<small>99</small></p>
+            </div>
+            <div class="item-footer">
+              <button class="btn1 btn-success">Comprar</button>
+              <button class="btn1 btn-border">Carrinho</button>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="item-content">
+            <img src="./srchoradoplay/hyperx.png" alt="" class="item-img">
+            <h1 class="item-title">Headset Sem Fio Gamer HyperX Cloud Stinger Core Som Surround 7.1</h1>
+            <div class="item-body">
+                <div class="item-star">
+                    <span class="rating-value">4.7</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <p class="item-price">R$389,<small>99</small></p>
+            </div>
+            <div class="item-footer">
+              <button class="btn1 btn-success">Comprar</button>
+              <button class="btn1 btn-border">Carrinho</button>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="item-content">
+            <img src="./srchoradoplay/mymax cadeira.png" alt="" class="item-img">
+            <h1 class="item-title">Cadeira Gamer Mymax MX5, Até 150kg, Com Almofadas. . .</h1>
+            <div class="item-body">
+                <div class="item-star">
+                    <span class="rating-value">4.5</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <p class="item-price">R$479,<small>99</small></p>
+            </div>
+            <div class="item-footer">
+              <button class="btn1 btn-success">Comprar</button>
+              <button class="btn1 btn-border">Carrinho</button>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="item-content">
+            <img src="./srchoradoplay/fonte.png" alt="" class="item-img">
+            <h1 class="item-title">Fonte MSI MAG A650BN, ATX, 650W, 80 PLUS Bronze</h1>
+            <div class="item-body">
+                <div class="item-star">
+                    <span class="rating-value">4.4</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <p class="item-price">R$219,<small>99</small></p>
+            </div>
+            <div class="item-footer">
+              <button class="btn1 btn-success">Comprar</button>
+              <button class="btn1 btn-border">Carrinho</button>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="item-content">
+            <img src="./srchoradoplay/rise gabinete.png" alt="" class="item-img">
+            <h1 class="item-title">Nike Running Shoese</h1>
+            <div class="item-body">
+                <div class="item-star">
+                    <span class="rating-value">4.5</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <p class="item-price">R$449,<small>99</small></p>
+            </div>
+            <div class="item-footer">
+              <button class="btn1 btn-success">Comprar</button>
+              <button class="btn1 btn-border">Carrinho</button>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="item-content">
+            <img src="./srchoradoplay/mousee.png" alt="" class="item-img">
+            <h1 class="item-title">Mouse Gamer Logitech G403 HERO com RGB LIGHTSYNC</h1>
+            <div class="item-body">
+                <div class="item-star">
+                    <span class="rating-value">4.4</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <p class="item-price">R$199,<small>99</small></p>
+            </div>
+            <div class="item-footer">
+              <button class="btn1 btn-success">Comprar</button>
+              <button class="btn1 btn-border">Carrinho</button>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+          <img src="./srchoradoplay/memoria.png" alt="" class="item-img">
+          <h1 class="item-title">Memória Kingston Fury Impact, 8GB, 3200MHz, DDR4</h1>
+          <div class="item-body">
+              <div class="item-star">
+                  <span class="rating-value">4.4</span>
+                  <span class="star">&#9733;</span>
+              </div>
+              <p class="item-price">R$156,<small>99</small></p>
+          </div>
+          <div class="item-footer">
+            <button class="btn1 btn-success">Comprar</button>
+            <button class="btn1 btn-border">Carrinho</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-content">
+            <img src="./srchoradoplay/water corsair.png" alt="" class="item-img">
+            <h1 class="item-title">Water Cooler Corsair H55, RGB, 120mm, Radiator</h1>
+            <div class="item-body">
+                <div class="item-star">
+                    <span class="rating-value">4.4</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <p class="item-price">R$338,<small>99</small></p>
+            </div>
+            <div class="item-footer">
+              <button class="btn1 btn-success">Comprar</button>
+              <button class="btn1 btn-border">Carrinho</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-content">
+              <img src="./srchoradoplay/teclado mecanico.png" alt="" class="item-img">
+              <h1 class="item-title">Teclado Mecânico Gamer Husky Gaming Blizzard, Branco, 60%</h1>
+              <div class="item-body">
+                  <div class="item-star">
+                      <span class="rating-value">4.4</span>
+                      <span class="star">&#9733;</span>
+                  </div>
+                  <p class="item-price">R$119,<small>99</small></p>
+              </div>
+              <div class="item-footer">
+                <button class="btn1 btn-success">Comprar</button>
+                <button class="btn1 btn-border">Carrinho</button>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-content">
+                <img src="./srchoradoplay/Soundbar.png" alt="" class="item-img">
+                <h1 class="item-title">Soundbar Gamer Redragon Adiemus, 6W RMS, RGB, USB, 150Hz/20KHz</h1>
+                <div class="item-body">
+                    <div class="item-star">
+                        <span class="rating-value">4.4</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <p class="item-price">R$129,<small>99</small></p>
+                </div>
+                <div class="item-footer">
+                  <button class="btn1 btn-success">Comprar</button>
+                  <button class="btn1 btn-border">Carrinho</button>
+                </div>
+              </div>
+            </div>
+  </div>
+  
+  <br>
+
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <img src="src/images/formas de pagamento.jpg" alt="">
+
+  <p> AlienByte® é uma marca registrada de ALIENBYTE S.A | CNPJ: 00.000.000/0000-00 | Todos os direitos reservados. 
+  Os preços anunciados neste site ou via e-mail promocional podem ser alterados sem prévio aviso.
+   A AlienByte não é responsável por erros descritivos. As fotos contidas nesta página são meramente 
+   ilustrativas do produto e podem variar de acordo com o fornecedor/lote do fabricante. 
+   Este site trabalha 100% em criptografia SSL.  <a href="poli">Clique aqui e veja as políticas de nossa empresa</a>.</p>
+
+</footer>
+
+
+<!-- JAVASCRIPT PARTE NAVBAR -->
+<script src="script.js"></script>
+</body>
+
+</html>
